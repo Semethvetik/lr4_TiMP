@@ -1,0 +1,23 @@
+\begin{theindex}
+
+  \item {cipher\_error}, \hyperpage{7}
+
+  \indexspace
+
+  \item {decrypt}
+    \subitem {modAlphaCipher}, \hyperpage{8}
+
+  \indexspace
+
+  \item {encrypt}
+    \subitem {modAlphaCipher}, \hyperpage{8}
+
+  \indexspace
+
+  \item {modAlphaCipher}, \hyperpage{8}
+    \subitem {decrypt}, \hyperpage{8}
+    \subitem {encrypt}, \hyperpage{8}
+  \item {modAlphaCipher.cpp}, \hyperpage{9}
+  \item {modAlphaCipher.h}, \hyperpage{10}
+
+\end{theindex}

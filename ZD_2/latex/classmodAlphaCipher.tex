@@ -1,0 +1,60 @@
+\hypertarget{classmodAlphaCipher}{}\doxysection{Класс mod\+Alpha\+Cipher}
+\label{classmodAlphaCipher}\index{modAlphaCipher@{modAlphaCipher}}
+
+
+Класс для шифрования и расшифрования текста с помощью алгоритма модифицированного алфавитного шифра  
+
+
+
+
+{\ttfamily \#include $<$mod\+Alpha\+Cipher.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmodAlphaCipher_a9356622063f30c2661adcde5992a314b}\label{classmodAlphaCipher_a9356622063f30c2661adcde5992a314b}} 
+{\bfseries mod\+Alpha\+Cipher} (const int \&key)
+\item 
+string \mbox{\hyperlink{classmodAlphaCipher_aa74f484b3cb8667a5d8db0f734b4f88d}{encrypt}} (const string \&open\+\_\+stroka)
+\begin{DoxyCompactList}\small\item\em Метод для зашифрования текста \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classmodAlphaCipher_a0e2830ace1ef16592c9a27bacf89891a}{decrypt}} (const string \&cipher\+\_\+stroka)
+\begin{DoxyCompactList}\small\item\em Метод для расшифрования текста \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classmodAlphaCipher_af6c67f8c21b3ecf1d0ed8ac4d21e9f2b}\label{classmodAlphaCipher_af6c67f8c21b3ecf1d0ed8ac4d21e9f2b}} 
+string \mbox{\hyperlink{classmodAlphaCipher_af6c67f8c21b3ecf1d0ed8ac4d21e9f2b}{get\+Valid\+Text}} (const std\+::string \&s)
+\begin{DoxyCompactList}\small\item\em Метод для проверки текста на валидность \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для шифрования и расшифрования текста с помощью алгоритма модифицированного алфавитного шифра 
+
+Класс имеет встроенный алфавит, состоящий из заглавных букв русского алфавита.
+
+Ключ шифрования задается при создании объекта класса. 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classmodAlphaCipher_a0e2830ace1ef16592c9a27bacf89891a}\label{classmodAlphaCipher_a0e2830ace1ef16592c9a27bacf89891a}} 
+\index{modAlphaCipher@{modAlphaCipher}!decrypt@{decrypt}}
+\index{decrypt@{decrypt}!modAlphaCipher@{modAlphaCipher}}
+\doxysubsubsection{\texorpdfstring{decrypt()}{decrypt()}}
+{\footnotesize\ttfamily string mod\+Alpha\+Cipher\+::decrypt (\begin{DoxyParamCaption}\item[{const string \&}]{cipher\+\_\+stroka }\end{DoxyParamCaption})}
+
+
+
+Метод для расшифрования текста 
+
+Метод для расшифрования \mbox{\Hypertarget{classmodAlphaCipher_aa74f484b3cb8667a5d8db0f734b4f88d}\label{classmodAlphaCipher_aa74f484b3cb8667a5d8db0f734b4f88d}} 
+\index{modAlphaCipher@{modAlphaCipher}!encrypt@{encrypt}}
+\index{encrypt@{encrypt}!modAlphaCipher@{modAlphaCipher}}
+\doxysubsubsection{\texorpdfstring{encrypt()}{encrypt()}}
+{\footnotesize\ttfamily string mod\+Alpha\+Cipher\+::encrypt (\begin{DoxyParamCaption}\item[{const string \&}]{open\+\_\+stroka }\end{DoxyParamCaption})}
+
+
+
+Метод для зашифрования текста 
+
+Метод для зашифрования 
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{modAlphaCipher_8h}{mod\+Alpha\+Cipher.\+h}}\item 
+\mbox{\hyperlink{modAlphaCipher_8cpp}{mod\+Alpha\+Cipher.\+cpp}}\end{DoxyCompactItemize}
